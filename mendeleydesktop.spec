@@ -3,7 +3,7 @@
 %global loextdir %{_libdir}/libreoffice/share/extensions/Mendeley
 
 Name:       mendeleydesktop
-Version:    1.19.1
+Version:    1.19.2
 Release:    1%{?dist}
 Summary:    Academic reference management software for researchers
 
@@ -45,6 +45,7 @@ Provides: bundled(zlib) = 1.2.3
 BuildRequires: desktop-file-utils
 Requires: hicolor-icon-theme
 Requires: qt5-qtstyleplugins
+Requires: qt5-qtbase
 
 %description
 Mendeley is a combination of a desktop application and a website which

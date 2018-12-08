@@ -4,7 +4,7 @@
 
 Name:       mendeleydesktop
 Version:    1.19.2
-Release:    1%{?dist}
+Release:    2%{?dist}
 Summary:    Academic reference management software for researchers
 
 #Group:
